@@ -56,6 +56,27 @@ function beautifier()
     {
         refs[i].style["-webkit-column-width"] = "380px";
     }
+
+    function hideCentralNotice()
+    {
+        var centralNotice = document.getElementById("centralNotice");
+        var head = document.getElementById("mw-head");
+        var panel = document.getElementById("mw-panel");
+        if (centralNotice)
+        {
+            centralNotice.style.display = "none";
+        }
+        if (head)
+        {
+            head.style.top = 0;
+        }
+        if (panel)
+        {
+            panel.style.top = "160px";
+        }
+    }
+
+    hideCentralNotice();
 }
 
 beautifier();

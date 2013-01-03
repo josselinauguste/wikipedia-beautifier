@@ -47,6 +47,7 @@
     margin-right: auto;
     margin-top: 1em;
     background: #fbfbfb;
+    width: auto !important;
 }
 
 .infobox,

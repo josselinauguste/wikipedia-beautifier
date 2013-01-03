@@ -24,6 +24,14 @@
     opacity: 1;
 }
 
+#mw-head-base {
+    background: none !important;
+}
+
+#content {
+    background: none !important;
+}
+
 #firstHeading {
     font-family: "minion-pro-1", "minion-pro-2", Palatino, Georgia, "Times New Roman", serif;
     width: 900px;
@@ -34,7 +42,6 @@
     border: none;
     font-weight: bold;
 }
-
 
 #bodyContent {
     line-height: 1.55em;
@@ -48,6 +55,10 @@
     margin-top: 1em;
     background: #fbfbfb;
     width: auto !important;
+}
+
+#footer {
+    background: none !important;
 }
 
 .infobox,

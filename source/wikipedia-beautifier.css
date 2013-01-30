@@ -44,8 +44,8 @@
 }
 
 #bodyContent {
-    line-height: 1.55em;
-    font-size: 1.0em;
+    line-height: 1.55em !important;
+    font-size: 1.0em !important;
     font-family: "minion-pro-1", "minion-pro-2", Palatino, Georgia, "Times New Roman", serif;
     border: 1px solid #ccc;
     width: 800px;

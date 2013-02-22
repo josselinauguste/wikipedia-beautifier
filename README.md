@@ -5,4 +5,4 @@ This project is a fork from the original by Scott Wheeler at https://github.com/
 
 ## How to install it?
 
-Download the zipfile http://d.pr/f/bhW4, uncompress it and drag the wikipedia-beautifier.crx file to a chrome window.
+Go to the official chrome extension webpage http://chrome.google.com/webstore/detail/wikipedia-beautifier/bpeggllelmdpefcfoeafbliiihbmhfjd and click "Add to Chrome".

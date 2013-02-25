@@ -57,26 +57,31 @@ function beautifier()
         refs[i].style["-webkit-column-width"] = "380px";
     }
 
-    function hideCentralNotice()
+    function hideNotices()
     {
         var centralNotice = document.getElementById("centralNotice");
-        var head = document.getElementById("mw-head");
-        var panel = document.getElementById("mw-panel");
         if (centralNotice)
         {
             centralNotice.style.display = "none";
         }
+        var localNotice = document.getElementById("localNotice");
+        if (localNotice)
+        {
+            localNotice.style.display = "none";
+        }
+        var head = document.getElementById("mw-head");
         if (head)
         {
             head.style.top = 0;
         }
+        var panel = document.getElementById("mw-panel");
         if (panel)
         {
             panel.style.top = "160px";
         }
     }
 
-    hideCentralNotice();
+    hideNotices();
 }
 
 beautifier();

@@ -1,6 +1,6 @@
 {
   "name": "Wikipedia Beautifier",
-  "version": "1.2.2",
+  "version": "1.3.0",
   "description": "Beautifies Wikipedia text and layout to make articles more readable",
   "manifest_version": 2,
   "content_scripts": [
@@ -11,5 +11,6 @@
           "js": [ "hyphenator.js", "wikipedia-beautifier.js" ],
           "run_at": "document_end"
       }
-  ]
+  ],
+  "web_accessible_resources": ["wikipedia-beautifier.css", "wikipedia-beautifier.js"]
 }

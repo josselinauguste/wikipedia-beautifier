@@ -69,6 +69,10 @@
     margin-bottom: 0.5em;
 }
 
+.infobox {
+  font-size: 75%;
+}
+
 .ambox, table.ambox {
     margin: 1.5em 10%;
 }

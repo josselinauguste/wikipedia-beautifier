@@ -1,7 +1,7 @@
 ## What is Wikipedia Beautifier?
 A Google chrome extension to make Wikipedia a little easier to read.
 
-This project is a fork from the original by Scott Wheeler at https://github.com/scotchi/wikipedia-beautifier.
+This project is a fork from the original by Scott Wheeler at https://github.com/scotchi/wikipedia-beautifier via Josselin Auguste's fork https://github.com/josselinauguste/wikipedia-beautifier.
 
 ## How to install it?
 
